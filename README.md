@@ -10,18 +10,21 @@ fgets() liest dabei **nur Char-Texteingaben**.
 
 ## Parameter
 fgets muss mit **drei** Parametern aufgerufen werden:
-<ol>
-<li> \*str
-fgets benötigt einen Zeiger auf einen
+1. *str
+
+> fgets benötigt einen Zeiger auf einen
 vorher erstellten Pufferbereich um
 die Eingaben abzuspeichern.
-<li> count
-Dient zur Spezifizierung der maximalen Länge des
+
+2. count
+
+> Dient zur Spezifizierung der maximalen Länge des
 einzugebenden Strings. Hilft dabei
 Buffer-Overflow-Fehlern vorzubeugen
-<li> \*stream
-Spezifiziert den stream von dem gelesen werden soll.
-<ol>
+
+3. *stream
+
+> Spezifiziert den stream von dem gelesen werden soll.
 
 ## Rückgabewerte
 Läuft die Funktion fgets fehlerfrei bis zum Ende, ist
