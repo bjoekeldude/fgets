@@ -15,5 +15,5 @@ int main (){
 	}
 	else printf("Eingabe: %s.", Input_Buff);
 	//Warum steht der Punkt in der nächsten Zeile?
-	exit(0);
+	return 0;
 }
